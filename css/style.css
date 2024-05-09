@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://s3-alpha-sig.figma.com/img/0bf1/b69e/357c8ab6a3a4880a008221c5d82b551a?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lyzo7b7yZpEHcBQ6q0AXAuMYyzmsTHSnYcJJ8-Xl7z-cWeB642cfM9BIp-m8prjFuZwoIHZF1wL3s7DGt2uEzw4QK93zlrZUZMDwA9WJt8FHFLk0wAWOGj1Phe9FTzUeIwHvfi6yHOJP8IhrZRhG6eiAHL0221N-LAJM7I2xrNi--uzNOVXrQM9xSq7hT4xsbk~ZkKBV1t6I5Mh6gxM60HZ5GtQarZuz8mesQjRLE2HJyvMyFsmDdo3p44oMrapWMad1JJVFYps1rb2XoenR0dAUfT7kgU5lsrvQzQyWKEh9kJmvWWUURPUTK1xflflqSHWB2F4eVgbi~3uQCYHWCg__");
+}
+
+.container {
+    display: flex; 
+    margin: 0 auto;
+    width: 1500px;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.header__hero ol {
+    display: flex;
+    gap: 40px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    font-family: sans-serif;
+    margin-left: -150px;
+    color: black;
+}
+
+.main__h1 {
+    text-align: center;
+    font-size: 72px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.282);
+    margin-top: -30px;
+}
+
+.main__btn {
+    display: flex;justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+
+}
+
+.btn:hover {
+    background-color: rgba(141, 138, 138, 0.432);
+    color: white;
+}
+
+.butn {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+}
+
+.butn:hover {
+    background-color: rgba(141, 138, 138, 0.432);
+    color: white;
+}
